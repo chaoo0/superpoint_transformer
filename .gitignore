@@ -173,3 +173,6 @@ local
 ckpt
 outputs
 wandb
+*.ckpt
+*.pth
+__pycache__/

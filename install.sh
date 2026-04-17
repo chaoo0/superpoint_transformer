@@ -154,3 +154,13 @@ fi
 echo
 echo
 echo "🚀 Successfully installed SPT"
+
+
+##(spt) liu@LIU22:~/local/superpoint_transformer$ pip install torch==2.2.0 torchvision --index-url https://download.pytorch.org/whl/cu118 --force-reinstall
+
+#(spt) liu@LIU22:~/local/superpoint_transformer$ find /home/liu/anaconda3/envs/spt/include -name "google"
+#/home/liu/anaconda3/envs/spt/include/google
+#(spt) liu@LIU22:~/local/superpoint_transformer$ cd ~/local/superpoint_transformer/src/dependencies/torchsparse
+#(spt) liu@LIU22:~/local/superpoint_transformer/src/dependencies/torchsparse$ rm -rf build/ dist/ *.egg-info
+#(spt) liu@LIU22:~/local/superpoint_transformer/src/dependencies/torchsparse$ export CPATH=/home/liu/anaconda3/envs/spt/include:$CPATH
+#(spt) liu@LIU22:~/local/superpoint_transformer/src/dependencies/torchsparse$ pip install .
